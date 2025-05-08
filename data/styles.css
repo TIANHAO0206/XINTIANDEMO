@@ -88,6 +88,8 @@
   font-size:14px;
   text-align:left;
 }
+.horizontal_line {
+}
 .text_field {
   color:#606266;
   text-align:left;
@@ -124,6 +126,14 @@
   font-size:20px;
   text-align:left;
   line-height:28px;
+}
+.heading_3 {
+  font-family:'PingFang SC Regular', 'PingFang SC';
+  font-weight:bold;
+  font-style:normal;
+  font-size:16px;
+  text-align:left;
+  line-height:24px;
 }
 .heading_4 {
   font-family:'PingFang SC Regular', 'PingFang SC';
@@ -201,5 +211,11 @@
 }
 .radio_button {
   text-align:left;
+}
+.box1__eee {
+  font-family:'微软雅黑';
+  font-weight:400;
+  font-style:normal;
+  color:#333333;
 }
 textarea, select, input, button { outline: none; }
