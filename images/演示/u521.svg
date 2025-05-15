@@ -1,18 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="41px" height="36px" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <filter x="1616px" y="0px" width="41px" height="36px" filterUnits="userSpaceOnUse" id="filter299">
+    <filter x="1616px" y="0px" width="41px" height="36px" filterUnits="userSpaceOnUse" id="filter172">
       <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetInner" />
       <feGaussianBlur stdDeviation="5" in="shadowOffsetInner" result="shadowGaussian" />
       <feComposite in2="shadowGaussian" operator="atop" in="SourceAlpha" result="shadowComposite" />
       <feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.313725490196078 0  " in="shadowComposite" />
     </filter>
-    <g id="widget300">
+    <g id="widget173">
       <path d="M 20.1670673076923 3.65909090909091  C 20.7223557692308 4.15909090909091  21 4.75757575757576  21 5.45454545454546  L 21 13.4545454545455  C 21 14.1515151515152  20.7223557692308 14.75  20.1670673076923 15.25  C 19.6117788461538 15.75  18.9471153846154 16  18.1730769230769 16  L 2.82692307692308 16  C 2.05288461538462 16  1.38822115384615 15.75  0.832932692307692 15.25  C 0.277644230769231 14.75  0 14.1515151515152  0 13.4545454545455  L 0 2.54545454545455  C 0 1.84848484848485  0.277644230769231 1.25  0.832932692307692 0.75  C 1.38822115384615 0.25  2.05288461538462 0  2.82692307692308 0  L 6.86538461538462 0  C 7.63942307692308 0  8.30408653846154 0.25  8.859375 0.75  C 9.41466346153846 1.25  9.69230769230769 1.84848484848485  9.69230769230769 2.54545454545455  L 9.69230769230769 2.90909090909091  L 18.1730769230769 2.90909090909091  C 18.9471153846154 2.90909090909091  19.6117788461538 3.15909090909091  20.1670673076923 3.65909090909091  Z " fill-rule="nonzero" fill="#fafafa" stroke="none" transform="matrix(1 0 0 1 1626 10 )" />
     </g>
   </defs>
   <g transform="matrix(1 0 0 1 -1616 0 )">
-    <use xlink:href="#widget300" filter="url(#filter299)" />
-    <use xlink:href="#widget300" />
+    <use xlink:href="#widget173" filter="url(#filter172)" />
+    <use xlink:href="#widget173" />
   </g>
 </svg>
