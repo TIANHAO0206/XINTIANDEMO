@@ -1,0 +1,901 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>船舶计划管理V2.0</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/船舶计划管理v2_0/styles.css" type="text/css" rel="stylesheet"/>
+    <style type="text/css">
+@font-face {
+</style>
+<script>
+document.oncontextmenu = function (event){
+    if(window.event){
+        event = window.event;
+    }try{
+        var the = event.srcElement;
+        if (!((the.tagName == "INPUT" && the.type.toLowerCase() == "text") || the.tagName == "TEXTAREA")){
+            return false;
+        }
+        return true;
+    }catch (e){
+        return false; 
+    } 
+}
+</script><style>
+}
+    </style>
+    <script src="resources/scripts/jquery-3.2.1.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script src="resources/scripts/axure/jquery.nicescroll.min.js"></script>
+    <script src="data/document.js"></script>
+    <script src="files/船舶计划管理v2_0/data.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- 菜单切换 (动态面板) -->
+      <div id="u23886" class="ax_default" data-label="菜单切换">
+        <div id="u23886_state0" class="panel_state" data-label="靠离泊计划" style="">
+          <div id="u23886_state0_content" class="panel_state_content">
+
+            <!-- 按钮组 (组合) -->
+            <div id="u23887" class="ax_default" data-label="按钮组" data-left="4" data-top="0" data-width="65" data-height="923">
+
+              <!-- 列车计划 (组合) -->
+              <div id="u23888" class="ax_default ax_default_hidden" data-label="列车计划" style="display:none; visibility: hidden" data-left="0" data-top="87" data-width="277" data-height="66">
+
+                <!-- Unnamed (矩形) -->
+                <div id="u23889" class="ax_default box_1">
+                  <div id="u23889_div" class=""></div>
+                  <div id="u23889_text" class="text " style="display:none; visibility: hidden">
+                    <p></p>
+                  </div>
+                </div>
+
+                <!-- 货票信息 (矩形) -->
+                <div id="u23890" class="ax_default box_1" data-label="货票信息">
+                  <img id="u23890_img" class="img " src="images/演示/货票信息_u1060.svg"/>
+                  <div id="u23890_text" class="text ">
+                    <p style="font-size:28px;"><span></span></p><p style="font-size:6px;"><span><br></span></p><p style="font-size:10px;"><span>货票信息</span></p>
+                  </div>
+                </div>
+
+                <!-- 列车生产计划 (矩形) -->
+                <div id="u23891" class="ax_default box_1" data-label="列车生产计划">
+                  <img id="u23891_img" class="img " src="images/演示/货票信息_u1060.svg"/>
+                  <div id="u23891_text" class="text ">
+                    <p style="font-size:28px;"><span></span></p><p style="font-size:6px;"><span><br></span></p><p style="font-size:10px;"><span>生产计划</span></p>
+                  </div>
+                </div>
+
+                <!-- 到车计划 (矩形) -->
+                <div id="u23892" class="ax_default box_1" data-label="到车计划">
+                  <img id="u23892_img" class="img " src="images/演示/货票信息_u1060.svg"/>
+                  <div id="u23892_text" class="text ">
+                    <p style="font-size:28px;"><span></span></p><p style="font-size:6px;"><span><br></span></p><p style="font-size:10px;"><span>到车计划</span></p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 船舶计划 (组合) -->
+              <div id="u23893" class="ax_default ax_default_hidden" data-label="船舶计划" style="display:none; visibility: hidden" data-left="0" data-top="17" data-width="209" data-height="66">
+
+                <!-- Unnamed (矩形) -->
+                <div id="u23894" class="ax_default box_1">
+                  <div id="u23894_div" class=""></div>
+                  <div id="u23894_text" class="text " style="display:none; visibility: hidden">
+                    <p></p>
+                  </div>
+                </div>
+
+                <!-- 靠离泊计划 (形状) -->
+                <div id="u23895" class="ax_default box_1" data-label="靠离泊计划">
+                  <img id="u23895_img" class="img " src="images/计划面板备份v2_0/靠离泊计划_u5139.svg"/>
+                  <div id="u23895_text" class="text ">
+                    <p style="font-size:28px;"><span></span></p><p style="font-size:6px;"><span><br></span></p><p style="font-size:10px;"><span>靠离泊计划</span></p>
+                  </div>
+                </div>
+
+                <!-- 生产计划 (矩形) -->
+                <div id="u23896" class="ax_default box_1" data-label="生产计划">
+                  <img id="u23896_img" class="img " src="images/演示/货票信息_u1060.svg"/>
+                  <div id="u23896_text" class="text ">
+                    <p style="font-size:28px;"><span></span></p><p style="font-size:6px;"><span><br></span></p><p style="font-size:10px;"><span>生产计划</span></p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u23897" class="ax_default box_1">
+                <div id="u23897_div" class=""></div>
+                <div id="u23897_text" class="text " style="display:none; visibility: hidden">
+                  <p></p>
+                </div>
+              </div>
+
+              <!-- 船舶 (矩形) -->
+              <div id="u23898" class="ax_default box_1" data-label="船舶">
+                <img id="u23898_img" class="img " src="images/演示/船舶_u1064.svg"/>
+                <div id="u23898_text" class="text ">
+                  <p style="font-size:28px;"><span></span></p><p style="font-size:6px;"><span><br></span></p><p style="font-size:10px;"><span>船舶计划管理</span></p>
+                </div>
+              </div>
+
+              <!-- 杂项 (矩形) -->
+              <div id="u23899" class="ax_default box_1" data-label="杂项">
+                <img id="u23899_img" class="img " src="images/演示/货票信息_u1060.svg"/>
+                <div id="u23899_text" class="text ">
+                  <p style="font-size:28px;"><span></span></p><p style="font-size:6px;"><span><br></span></p><p style="font-size:10px;"><span>杂项作业计划</span></p>
+                </div>
+              </div>
+
+              <!-- 列车 (矩形) -->
+              <div id="u23900" class="ax_default box_1" data-label="列车">
+                <img id="u23900_img" class="img " src="images/演示/货票信息_u1060.svg"/>
+                <div id="u23900_text" class="text ">
+                  <p style="font-size:28px;"><span></span></p><p style="font-size:6px;"><span><br></span></p><p style="font-size:10px;"><span>列车计划管理</span></p>
+                </div>
+              </div>
+
+              <!-- 汽车 (矩形) -->
+              <div id="u23901" class="ax_default box_1" data-label="汽车">
+                <img id="u23901_img" class="img " src="images/演示/货票信息_u1060.svg"/>
+                <div id="u23901_text" class="text ">
+                  <p style="font-size:28px;"><span></span></p><p style="font-size:6px;"><span><br></span></p><p style="font-size:10px;"><span>汽车计划管理</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="u23886_state1" class="panel_state" data-label="船舶生产计划" style="visibility: hidden;">
+          <div id="u23886_state1_content" class="panel_state_content">
+
+            <!-- 按钮组 (组合) -->
+            <div id="u23902" class="ax_default" data-label="按钮组" data-left="4" data-top="0" data-width="65" data-height="923">
+
+              <!-- 列车计划 (组合) -->
+              <div id="u23903" class="ax_default ax_default_hidden" data-label="列车计划" style="display:none; visibility: hidden" data-left="0" data-top="87" data-width="277" data-height="66">
+
+                <!-- Unnamed (矩形) -->
+                <div id="u23904" class="ax_default box_1">
+                  <div id="u23904_div" class=""></div>
+                  <div id="u23904_text" class="text " style="display:none; visibility: hidden">
+                    <p></p>
+                  </div>
+                </div>
+
+                <!-- 货票信息 (矩形) -->
+                <div id="u23905" class="ax_default box_1" data-label="货票信息">
+                  <img id="u23905_img" class="img " src="images/演示/货票信息_u1060.svg"/>
+                  <div id="u23905_text" class="text ">
+                    <p style="font-size:28px;"><span></span></p><p style="font-size:6px;"><span><br></span></p><p style="font-size:10px;"><span>货票信息</span></p>
+                  </div>
+                </div>
+
+                <!-- 列车生产计划 (矩形) -->
+                <div id="u23906" class="ax_default box_1" data-label="列车生产计划">
+                  <img id="u23906_img" class="img " src="images/演示/货票信息_u1060.svg"/>
+                  <div id="u23906_text" class="text ">
+                    <p style="font-size:28px;"><span></span></p><p style="font-size:6px;"><span><br></span></p><p style="font-size:10px;"><span>生产计划</span></p>
+                  </div>
+                </div>
+
+                <!-- 到车计划 (矩形) -->
+                <div id="u23907" class="ax_default box_1" data-label="到车计划">
+                  <img id="u23907_img" class="img " src="images/演示/货票信息_u1060.svg"/>
+                  <div id="u23907_text" class="text ">
+                    <p style="font-size:28px;"><span></span></p><p style="font-size:6px;"><span><br></span></p><p style="font-size:10px;"><span>到车计划</span></p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 船舶计划 (组合) -->
+              <div id="u23908" class="ax_default ax_default_hidden" data-label="船舶计划" style="display:none; visibility: hidden" data-left="0" data-top="17" data-width="209" data-height="66">
+
+                <!-- Unnamed (矩形) -->
+                <div id="u23909" class="ax_default box_1">
+                  <div id="u23909_div" class=""></div>
+                  <div id="u23909_text" class="text " style="display:none; visibility: hidden">
+                    <p></p>
+                  </div>
+                </div>
+
+                <!-- 靠离泊计划 (形状) -->
+                <div id="u23910" class="ax_default box_1" data-label="靠离泊计划">
+                  <img id="u23910_img" class="img " src="images/计划面板备份v2_0/靠离泊计划_u5154.svg"/>
+                  <div id="u23910_text" class="text ">
+                    <p style="font-size:28px;"><span></span></p><p style="font-size:6px;"><span><br></span></p><p style="font-size:10px;"><span>靠离泊计划</span></p>
+                  </div>
+                </div>
+
+                <!-- 生产计划 (矩形) -->
+                <div id="u23911" class="ax_default box_1" data-label="生产计划">
+                  <img id="u23911_img" class="img " src="images/演示/到车计划_u1073.svg"/>
+                  <div id="u23911_text" class="text ">
+                    <p style="font-size:28px;"><span></span></p><p style="font-size:6px;"><span><br></span></p><p style="font-size:10px;"><span>生产计划</span></p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u23912" class="ax_default box_1">
+                <div id="u23912_div" class=""></div>
+                <div id="u23912_text" class="text " style="display:none; visibility: hidden">
+                  <p></p>
+                </div>
+              </div>
+
+              <!-- 船舶 (矩形) -->
+              <div id="u23913" class="ax_default box_1" data-label="船舶">
+                <img id="u23913_img" class="img " src="images/演示/船舶_u1064.svg"/>
+                <div id="u23913_text" class="text ">
+                  <p style="font-size:28px;"><span></span></p><p style="font-size:6px;"><span><br></span></p><p style="font-size:10px;"><span>船舶计划管理</span></p>
+                </div>
+              </div>
+
+              <!-- 杂项 (矩形) -->
+              <div id="u23914" class="ax_default box_1" data-label="杂项">
+                <img id="u23914_img" class="img " src="images/演示/货票信息_u1060.svg"/>
+                <div id="u23914_text" class="text ">
+                  <p style="font-size:28px;"><span></span></p><p style="font-size:6px;"><span><br></span></p><p style="font-size:10px;"><span>杂项作业计划</span></p>
+                </div>
+              </div>
+
+              <!-- 列车 (矩形) -->
+              <div id="u23915" class="ax_default box_1" data-label="列车">
+                <img id="u23915_img" class="img " src="images/演示/货票信息_u1060.svg"/>
+                <div id="u23915_text" class="text ">
+                  <p style="font-size:28px;"><span></span></p><p style="font-size:6px;"><span><br></span></p><p style="font-size:10px;"><span>列车计划管理</span></p>
+                </div>
+              </div>
+
+              <!-- 汽车 (矩形) -->
+              <div id="u23916" class="ax_default box_1" data-label="汽车">
+                <img id="u23916_img" class="img " src="images/演示/货票信息_u1060.svg"/>
+                <div id="u23916_text" class="text ">
+                  <p style="font-size:28px;"><span></span></p><p style="font-size:6px;"><span><br></span></p><p style="font-size:10px;"><span>汽车计划管理</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="u23886_state2" class="panel_state" data-label="到车计划" style="visibility: hidden;">
+          <div id="u23886_state2_content" class="panel_state_content">
+
+            <!-- 按钮组 (组合) -->
+            <div id="u23917" class="ax_default" data-label="按钮组" data-left="4" data-top="0" data-width="65" data-height="923">
+
+              <!-- 列车计划 (组合) -->
+              <div id="u23918" class="ax_default ax_default_hidden" data-label="列车计划" style="display:none; visibility: hidden" data-left="0" data-top="87" data-width="277" data-height="66">
+
+                <!-- Unnamed (矩形) -->
+                <div id="u23919" class="ax_default box_1">
+                  <div id="u23919_div" class=""></div>
+                  <div id="u23919_text" class="text " style="display:none; visibility: hidden">
+                    <p></p>
+                  </div>
+                </div>
+
+                <!-- 货票信息 (矩形) -->
+                <div id="u23920" class="ax_default box_1" data-label="货票信息">
+                  <img id="u23920_img" class="img " src="images/演示/货票信息_u1060.svg"/>
+                  <div id="u23920_text" class="text ">
+                    <p style="font-size:28px;"><span></span></p><p style="font-size:6px;"><span><br></span></p><p style="font-size:10px;"><span>货票信息</span></p>
+                  </div>
+                </div>
+
+                <!-- 列车生产计划 (矩形) -->
+                <div id="u23921" class="ax_default box_1" data-label="列车生产计划">
+                  <img id="u23921_img" class="img " src="images/演示/货票信息_u1060.svg"/>
+                  <div id="u23921_text" class="text ">
+                    <p style="font-size:28px;"><span></span></p><p style="font-size:6px;"><span><br></span></p><p style="font-size:10px;"><span>生产计划</span></p>
+                  </div>
+                </div>
+
+                <!-- 到车计划 (矩形) -->
+                <div id="u23922" class="ax_default box_1" data-label="到车计划">
+                  <img id="u23922_img" class="img " src="images/演示/到车计划_u1073.svg"/>
+                  <div id="u23922_text" class="text ">
+                    <p style="font-size:28px;"><span></span></p><p style="font-size:6px;"><span><br></span></p><p style="font-size:10px;"><span>到车计划</span></p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 船舶计划 (组合) -->
+              <div id="u23923" class="ax_default ax_default_hidden" data-label="船舶计划" style="display:none; visibility: hidden" data-left="0" data-top="17" data-width="209" data-height="66">
+
+                <!-- Unnamed (矩形) -->
+                <div id="u23924" class="ax_default box_1">
+                  <div id="u23924_div" class=""></div>
+                  <div id="u23924_text" class="text " style="display:none; visibility: hidden">
+                    <p></p>
+                  </div>
+                </div>
+
+                <!-- 靠离泊计划 (形状) -->
+                <div id="u23925" class="ax_default box_1" data-label="靠离泊计划">
+                  <img id="u23925_img" class="img " src="images/计划面板备份v2_0/靠离泊计划_u5154.svg"/>
+                  <div id="u23925_text" class="text ">
+                    <p style="font-size:28px;"><span></span></p><p style="font-size:6px;"><span><br></span></p><p style="font-size:10px;"><span>靠离泊计划</span></p>
+                  </div>
+                </div>
+
+                <!-- 生产计划 (矩形) -->
+                <div id="u23926" class="ax_default box_1" data-label="生产计划">
+                  <img id="u23926_img" class="img " src="images/演示/货票信息_u1060.svg"/>
+                  <div id="u23926_text" class="text ">
+                    <p style="font-size:28px;"><span></span></p><p style="font-size:6px;"><span><br></span></p><p style="font-size:10px;"><span>生产计划</span></p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u23927" class="ax_default box_1">
+                <div id="u23927_div" class=""></div>
+                <div id="u23927_text" class="text " style="display:none; visibility: hidden">
+                  <p></p>
+                </div>
+              </div>
+
+              <!-- 船舶 (矩形) -->
+              <div id="u23928" class="ax_default box_1" data-label="船舶">
+                <img id="u23928_img" class="img " src="images/演示/船舶_u1075.svg"/>
+                <div id="u23928_text" class="text ">
+                  <p style="font-size:28px;"><span></span></p><p style="font-size:6px;"><span><br></span></p><p style="font-size:10px;"><span>船舶计划管理</span></p>
+                </div>
+              </div>
+
+              <!-- 杂项 (矩形) -->
+              <div id="u23929" class="ax_default box_1" data-label="杂项">
+                <img id="u23929_img" class="img " src="images/演示/货票信息_u1060.svg"/>
+                <div id="u23929_text" class="text ">
+                  <p style="font-size:28px;"><span></span></p><p style="font-size:6px;"><span><br></span></p><p style="font-size:10px;"><span>杂项作业计划</span></p>
+                </div>
+              </div>
+
+              <!-- 列车 (矩形) -->
+              <div id="u23930" class="ax_default box_1" data-label="列车">
+                <img id="u23930_img" class="img " src="images/演示/到车计划_u1073.svg"/>
+                <div id="u23930_text" class="text ">
+                  <p style="font-size:28px;"><span></span></p><p style="font-size:6px;"><span><br></span></p><p style="font-size:10px;"><span>列车计划管理</span></p>
+                </div>
+              </div>
+
+              <!-- 汽车 (矩形) -->
+              <div id="u23931" class="ax_default box_1" data-label="汽车">
+                <img id="u23931_img" class="img " src="images/演示/货票信息_u1060.svg"/>
+                <div id="u23931_text" class="text ">
+                  <p style="font-size:28px;"><span></span></p><p style="font-size:6px;"><span><br></span></p><p style="font-size:10px;"><span>汽车计划管理</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="u23886_state3" class="panel_state" data-label="列车生产计划" style="visibility: hidden;">
+          <div id="u23886_state3_content" class="panel_state_content">
+
+            <!-- 按钮组 (组合) -->
+            <div id="u23932" class="ax_default" data-label="按钮组" data-left="4" data-top="0" data-width="65" data-height="923">
+
+              <!-- 列车计划 (组合) -->
+              <div id="u23933" class="ax_default ax_default_hidden" data-label="列车计划" style="display:none; visibility: hidden" data-left="0" data-top="87" data-width="277" data-height="66">
+
+                <!-- Unnamed (矩形) -->
+                <div id="u23934" class="ax_default box_1">
+                  <div id="u23934_div" class=""></div>
+                  <div id="u23934_text" class="text " style="display:none; visibility: hidden">
+                    <p></p>
+                  </div>
+                </div>
+
+                <!-- 货票信息 (矩形) -->
+                <div id="u23935" class="ax_default box_1" data-label="货票信息">
+                  <img id="u23935_img" class="img " src="images/演示/货票信息_u1060.svg"/>
+                  <div id="u23935_text" class="text ">
+                    <p style="font-size:28px;"><span></span></p><p style="font-size:6px;"><span><br></span></p><p style="font-size:10px;"><span>货票信息</span></p>
+                  </div>
+                </div>
+
+                <!-- 列车生产计划 (矩形) -->
+                <div id="u23936" class="ax_default box_1" data-label="列车生产计划">
+                  <img id="u23936_img" class="img " src="images/演示/到车计划_u1073.svg"/>
+                  <div id="u23936_text" class="text ">
+                    <p style="font-size:28px;"><span></span></p><p style="font-size:6px;"><span><br></span></p><p style="font-size:10px;"><span>生产计划</span></p>
+                  </div>
+                </div>
+
+                <!-- 到车计划 (矩形) -->
+                <div id="u23937" class="ax_default box_1" data-label="到车计划">
+                  <img id="u23937_img" class="img " src="images/演示/货票信息_u1060.svg"/>
+                  <div id="u23937_text" class="text ">
+                    <p style="font-size:28px;"><span></span></p><p style="font-size:6px;"><span><br></span></p><p style="font-size:10px;"><span>到车计划</span></p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 船舶计划 (组合) -->
+              <div id="u23938" class="ax_default ax_default_hidden" data-label="船舶计划" style="display:none; visibility: hidden" data-left="0" data-top="17" data-width="209" data-height="66">
+
+                <!-- Unnamed (矩形) -->
+                <div id="u23939" class="ax_default box_1">
+                  <div id="u23939_div" class=""></div>
+                  <div id="u23939_text" class="text " style="display:none; visibility: hidden">
+                    <p></p>
+                  </div>
+                </div>
+
+                <!-- 靠离泊计划 (形状) -->
+                <div id="u23940" class="ax_default box_1" data-label="靠离泊计划">
+                  <img id="u23940_img" class="img " src="images/计划面板备份v2_0/靠离泊计划_u5154.svg"/>
+                  <div id="u23940_text" class="text ">
+                    <p style="font-size:28px;"><span></span></p><p style="font-size:6px;"><span><br></span></p><p style="font-size:10px;"><span>靠离泊计划</span></p>
+                  </div>
+                </div>
+
+                <!-- 生产计划 (矩形) -->
+                <div id="u23941" class="ax_default box_1" data-label="生产计划">
+                  <img id="u23941_img" class="img " src="images/演示/货票信息_u1060.svg"/>
+                  <div id="u23941_text" class="text ">
+                    <p style="font-size:28px;"><span></span></p><p style="font-size:6px;"><span><br></span></p><p style="font-size:10px;"><span>生产计划</span></p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u23942" class="ax_default box_1">
+                <div id="u23942_div" class=""></div>
+                <div id="u23942_text" class="text " style="display:none; visibility: hidden">
+                  <p></p>
+                </div>
+              </div>
+
+              <!-- 船舶 (矩形) -->
+              <div id="u23943" class="ax_default box_1" data-label="船舶">
+                <img id="u23943_img" class="img " src="images/演示/船舶_u1075.svg"/>
+                <div id="u23943_text" class="text ">
+                  <p style="font-size:28px;"><span></span></p><p style="font-size:6px;"><span><br></span></p><p style="font-size:10px;"><span>船舶计划管理</span></p>
+                </div>
+              </div>
+
+              <!-- 杂项 (矩形) -->
+              <div id="u23944" class="ax_default box_1" data-label="杂项">
+                <img id="u23944_img" class="img " src="images/演示/货票信息_u1060.svg"/>
+                <div id="u23944_text" class="text ">
+                  <p style="font-size:28px;"><span></span></p><p style="font-size:6px;"><span><br></span></p><p style="font-size:10px;"><span>杂项作业计划</span></p>
+                </div>
+              </div>
+
+              <!-- 列车 (矩形) -->
+              <div id="u23945" class="ax_default box_1" data-label="列车">
+                <img id="u23945_img" class="img " src="images/演示/到车计划_u1073.svg"/>
+                <div id="u23945_text" class="text ">
+                  <p style="font-size:28px;"><span></span></p><p style="font-size:6px;"><span><br></span></p><p style="font-size:10px;"><span>列车计划管理</span></p>
+                </div>
+              </div>
+
+              <!-- 汽车 (矩形) -->
+              <div id="u23946" class="ax_default box_1" data-label="汽车">
+                <img id="u23946_img" class="img " src="images/演示/货票信息_u1060.svg"/>
+                <div id="u23946_text" class="text ">
+                  <p style="font-size:28px;"><span></span></p><p style="font-size:6px;"><span><br></span></p><p style="font-size:10px;"><span>汽车计划管理</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="u23886_state4" class="panel_state" data-label="货票信息" style="visibility: hidden;">
+          <div id="u23886_state4_content" class="panel_state_content">
+
+            <!-- 按钮组 (组合) -->
+            <div id="u23947" class="ax_default" data-label="按钮组" data-left="4" data-top="0" data-width="65" data-height="923">
+
+              <!-- 列车计划 (组合) -->
+              <div id="u23948" class="ax_default ax_default_hidden" data-label="列车计划" style="display:none; visibility: hidden" data-left="0" data-top="87" data-width="277" data-height="66">
+
+                <!-- Unnamed (矩形) -->
+                <div id="u23949" class="ax_default box_1">
+                  <div id="u23949_div" class=""></div>
+                  <div id="u23949_text" class="text " style="display:none; visibility: hidden">
+                    <p></p>
+                  </div>
+                </div>
+
+                <!-- 货票信息 (矩形) -->
+                <div id="u23950" class="ax_default box_1" data-label="货票信息">
+                  <img id="u23950_img" class="img " src="images/演示/到车计划_u1073.svg"/>
+                  <div id="u23950_text" class="text ">
+                    <p style="font-size:28px;"><span></span></p><p style="font-size:6px;"><span><br></span></p><p style="font-size:10px;"><span>货票信息</span></p>
+                  </div>
+                </div>
+
+                <!-- 列车生产计划 (矩形) -->
+                <div id="u23951" class="ax_default box_1" data-label="列车生产计划">
+                  <img id="u23951_img" class="img " src="images/演示/货票信息_u1060.svg"/>
+                  <div id="u23951_text" class="text ">
+                    <p style="font-size:28px;"><span></span></p><p style="font-size:6px;"><span><br></span></p><p style="font-size:10px;"><span>生产计划</span></p>
+                  </div>
+                </div>
+
+                <!-- 到车计划 (矩形) -->
+                <div id="u23952" class="ax_default box_1" data-label="到车计划">
+                  <img id="u23952_img" class="img " src="images/演示/货票信息_u1060.svg"/>
+                  <div id="u23952_text" class="text ">
+                    <p style="font-size:28px;"><span></span></p><p style="font-size:6px;"><span><br></span></p><p style="font-size:10px;"><span>到车计划</span></p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 船舶计划 (组合) -->
+              <div id="u23953" class="ax_default ax_default_hidden" data-label="船舶计划" style="display:none; visibility: hidden" data-left="0" data-top="17" data-width="209" data-height="66">
+
+                <!-- Unnamed (矩形) -->
+                <div id="u23954" class="ax_default box_1">
+                  <div id="u23954_div" class=""></div>
+                  <div id="u23954_text" class="text " style="display:none; visibility: hidden">
+                    <p></p>
+                  </div>
+                </div>
+
+                <!-- 靠离泊计划 (形状) -->
+                <div id="u23955" class="ax_default box_1" data-label="靠离泊计划">
+                  <img id="u23955_img" class="img " src="images/计划面板备份v2_0/靠离泊计划_u5154.svg"/>
+                  <div id="u23955_text" class="text ">
+                    <p style="font-size:28px;"><span></span></p><p style="font-size:6px;"><span><br></span></p><p style="font-size:10px;"><span>靠离泊计划</span></p>
+                  </div>
+                </div>
+
+                <!-- 生产计划 (矩形) -->
+                <div id="u23956" class="ax_default box_1" data-label="生产计划">
+                  <img id="u23956_img" class="img " src="images/演示/货票信息_u1060.svg"/>
+                  <div id="u23956_text" class="text ">
+                    <p style="font-size:28px;"><span></span></p><p style="font-size:6px;"><span><br></span></p><p style="font-size:10px;"><span>生产计划</span></p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u23957" class="ax_default box_1">
+                <div id="u23957_div" class=""></div>
+                <div id="u23957_text" class="text " style="display:none; visibility: hidden">
+                  <p></p>
+                </div>
+              </div>
+
+              <!-- 船舶 (矩形) -->
+              <div id="u23958" class="ax_default box_1" data-label="船舶">
+                <img id="u23958_img" class="img " src="images/演示/船舶_u1075.svg"/>
+                <div id="u23958_text" class="text ">
+                  <p style="font-size:28px;"><span></span></p><p style="font-size:6px;"><span><br></span></p><p style="font-size:10px;"><span>船舶计划管理</span></p>
+                </div>
+              </div>
+
+              <!-- 杂项 (矩形) -->
+              <div id="u23959" class="ax_default box_1" data-label="杂项">
+                <img id="u23959_img" class="img " src="images/演示/货票信息_u1060.svg"/>
+                <div id="u23959_text" class="text ">
+                  <p style="font-size:28px;"><span></span></p><p style="font-size:6px;"><span><br></span></p><p style="font-size:10px;"><span>杂项作业计划</span></p>
+                </div>
+              </div>
+
+              <!-- 列车 (矩形) -->
+              <div id="u23960" class="ax_default box_1" data-label="列车">
+                <img id="u23960_img" class="img " src="images/演示/到车计划_u1073.svg"/>
+                <div id="u23960_text" class="text ">
+                  <p style="font-size:28px;"><span></span></p><p style="font-size:6px;"><span><br></span></p><p style="font-size:10px;"><span>列车计划管理</span></p>
+                </div>
+              </div>
+
+              <!-- 汽车 (矩形) -->
+              <div id="u23961" class="ax_default box_1" data-label="汽车">
+                <img id="u23961_img" class="img " src="images/演示/货票信息_u1060.svg"/>
+                <div id="u23961_text" class="text ">
+                  <p style="font-size:28px;"><span></span></p><p style="font-size:6px;"><span><br></span></p><p style="font-size:10px;"><span>汽车计划管理</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="u23886_state5" class="panel_state" data-label="汽疏计划" style="visibility: hidden;">
+          <div id="u23886_state5_content" class="panel_state_content">
+
+            <!-- 按钮组 (组合) -->
+            <div id="u23962" class="ax_default" data-label="按钮组" data-left="4" data-top="0" data-width="65" data-height="923">
+
+              <!-- Unnamed (矩形) -->
+              <div id="u23963" class="ax_default box_1">
+                <div id="u23963_div" class=""></div>
+                <div id="u23963_text" class="text " style="display:none; visibility: hidden">
+                  <p></p>
+                </div>
+              </div>
+
+              <!-- 列车计划 (组合) -->
+              <div id="u23964" class="ax_default ax_default_hidden" data-label="列车计划" style="display:none; visibility: hidden" data-left="0" data-top="87" data-width="277" data-height="66">
+
+                <!-- Unnamed (矩形) -->
+                <div id="u23965" class="ax_default box_1">
+                  <div id="u23965_div" class=""></div>
+                  <div id="u23965_text" class="text " style="display:none; visibility: hidden">
+                    <p></p>
+                  </div>
+                </div>
+
+                <!-- 货票信息 (矩形) -->
+                <div id="u23966" class="ax_default box_1" data-label="货票信息">
+                  <img id="u23966_img" class="img " src="images/演示/货票信息_u1060.svg"/>
+                  <div id="u23966_text" class="text ">
+                    <p style="font-size:28px;"><span></span></p><p style="font-size:6px;"><span><br></span></p><p style="font-size:10px;"><span>货票信息</span></p>
+                  </div>
+                </div>
+
+                <!-- 列车生产计划 (矩形) -->
+                <div id="u23967" class="ax_default box_1" data-label="列车生产计划">
+                  <img id="u23967_img" class="img " src="images/演示/货票信息_u1060.svg"/>
+                  <div id="u23967_text" class="text ">
+                    <p style="font-size:28px;"><span></span></p><p style="font-size:6px;"><span><br></span></p><p style="font-size:10px;"><span>生产计划</span></p>
+                  </div>
+                </div>
+
+                <!-- 到车计划 (矩形) -->
+                <div id="u23968" class="ax_default box_1" data-label="到车计划">
+                  <img id="u23968_img" class="img " src="images/演示/货票信息_u1060.svg"/>
+                  <div id="u23968_text" class="text ">
+                    <p style="font-size:28px;"><span></span></p><p style="font-size:6px;"><span><br></span></p><p style="font-size:10px;"><span>到车计划</span></p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 船舶计划 (组合) -->
+              <div id="u23969" class="ax_default ax_default_hidden" data-label="船舶计划" style="display:none; visibility: hidden" data-left="0" data-top="17" data-width="209" data-height="66">
+
+                <!-- Unnamed (矩形) -->
+                <div id="u23970" class="ax_default box_1">
+                  <div id="u23970_div" class=""></div>
+                  <div id="u23970_text" class="text " style="display:none; visibility: hidden">
+                    <p></p>
+                  </div>
+                </div>
+
+                <!-- 靠离泊计划 (形状) -->
+                <div id="u23971" class="ax_default box_1" data-label="靠离泊计划">
+                  <img id="u23971_img" class="img " src="images/计划面板备份v2_0/靠离泊计划_u5154.svg"/>
+                  <div id="u23971_text" class="text ">
+                    <p style="font-size:28px;"><span></span></p><p style="font-size:6px;"><span><br></span></p><p style="font-size:10px;"><span>靠离泊计划</span></p>
+                  </div>
+                </div>
+
+                <!-- 生产计划 (矩形) -->
+                <div id="u23972" class="ax_default box_1" data-label="生产计划">
+                  <img id="u23972_img" class="img " src="images/演示/货票信息_u1060.svg"/>
+                  <div id="u23972_text" class="text ">
+                    <p style="font-size:28px;"><span></span></p><p style="font-size:6px;"><span><br></span></p><p style="font-size:10px;"><span>生产计划</span></p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 船舶 (矩形) -->
+              <div id="u23973" class="ax_default box_1" data-label="船舶">
+                <img id="u23973_img" class="img " src="images/演示/船舶_u1075.svg"/>
+                <div id="u23973_text" class="text ">
+                  <p style="font-size:28px;"><span></span></p><p style="font-size:6px;"><span><br></span></p><p style="font-size:10px;"><span>船舶计划管理</span></p>
+                </div>
+              </div>
+
+              <!-- 杂项 (矩形) -->
+              <div id="u23974" class="ax_default box_1" data-label="杂项">
+                <img id="u23974_img" class="img " src="images/演示/货票信息_u1060.svg"/>
+                <div id="u23974_text" class="text ">
+                  <p style="font-size:28px;"><span></span></p><p style="font-size:6px;"><span><br></span></p><p style="font-size:10px;"><span>杂项作业计划</span></p>
+                </div>
+              </div>
+
+              <!-- 列车 (矩形) -->
+              <div id="u23975" class="ax_default box_1" data-label="列车">
+                <img id="u23975_img" class="img " src="images/演示/货票信息_u1060.svg"/>
+                <div id="u23975_text" class="text ">
+                  <p style="font-size:28px;"><span></span></p><p style="font-size:6px;"><span><br></span></p><p style="font-size:10px;"><span>列车计划管理</span></p>
+                </div>
+              </div>
+
+              <!-- 汽车 (矩形) -->
+              <div id="u23976" class="ax_default box_1" data-label="汽车">
+                <img id="u23976_img" class="img " src="images/演示/到车计划_u1073.svg"/>
+                <div id="u23976_text" class="text ">
+                  <p style="font-size:28px;"><span></span></p><p style="font-size:6px;"><span><br></span></p><p style="font-size:10px;"><span>汽车计划管理</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="u23886_state6" class="panel_state" data-label="杂项作业计划" style="visibility: hidden;">
+          <div id="u23886_state6_content" class="panel_state_content">
+
+            <!-- 按钮组 (组合) -->
+            <div id="u23977" class="ax_default" data-label="按钮组" data-left="4" data-top="0" data-width="65" data-height="923">
+
+              <!-- 列车计划 (组合) -->
+              <div id="u23978" class="ax_default ax_default_hidden" data-label="列车计划" style="display:none; visibility: hidden" data-left="0" data-top="87" data-width="277" data-height="66">
+
+                <!-- Unnamed (矩形) -->
+                <div id="u23979" class="ax_default box_1">
+                  <div id="u23979_div" class=""></div>
+                  <div id="u23979_text" class="text " style="display:none; visibility: hidden">
+                    <p></p>
+                  </div>
+                </div>
+
+                <!-- 货票信息 (矩形) -->
+                <div id="u23980" class="ax_default box_1" data-label="货票信息">
+                  <img id="u23980_img" class="img " src="images/演示/货票信息_u1060.svg"/>
+                  <div id="u23980_text" class="text ">
+                    <p style="font-size:28px;"><span></span></p><p style="font-size:6px;"><span><br></span></p><p style="font-size:10px;"><span>货票信息</span></p>
+                  </div>
+                </div>
+
+                <!-- 列车生产计划 (矩形) -->
+                <div id="u23981" class="ax_default box_1" data-label="列车生产计划">
+                  <img id="u23981_img" class="img " src="images/演示/货票信息_u1060.svg"/>
+                  <div id="u23981_text" class="text ">
+                    <p style="font-size:28px;"><span></span></p><p style="font-size:6px;"><span><br></span></p><p style="font-size:10px;"><span>生产计划</span></p>
+                  </div>
+                </div>
+
+                <!-- 到车计划 (矩形) -->
+                <div id="u23982" class="ax_default box_1" data-label="到车计划">
+                  <img id="u23982_img" class="img " src="images/演示/货票信息_u1060.svg"/>
+                  <div id="u23982_text" class="text ">
+                    <p style="font-size:28px;"><span></span></p><p style="font-size:6px;"><span><br></span></p><p style="font-size:10px;"><span>到车计划</span></p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 船舶计划 (组合) -->
+              <div id="u23983" class="ax_default ax_default_hidden" data-label="船舶计划" style="display:none; visibility: hidden" data-left="0" data-top="17" data-width="209" data-height="66">
+
+                <!-- Unnamed (矩形) -->
+                <div id="u23984" class="ax_default box_1">
+                  <div id="u23984_div" class=""></div>
+                  <div id="u23984_text" class="text " style="display:none; visibility: hidden">
+                    <p></p>
+                  </div>
+                </div>
+
+                <!-- 靠离泊计划 (形状) -->
+                <div id="u23985" class="ax_default box_1" data-label="靠离泊计划">
+                  <img id="u23985_img" class="img " src="images/计划面板备份v2_0/靠离泊计划_u5154.svg"/>
+                  <div id="u23985_text" class="text ">
+                    <p style="font-size:28px;"><span></span></p><p style="font-size:6px;"><span><br></span></p><p style="font-size:10px;"><span>靠离泊计划</span></p>
+                  </div>
+                </div>
+
+                <!-- 生产计划 (矩形) -->
+                <div id="u23986" class="ax_default box_1" data-label="生产计划">
+                  <img id="u23986_img" class="img " src="images/演示/货票信息_u1060.svg"/>
+                  <div id="u23986_text" class="text ">
+                    <p style="font-size:28px;"><span></span></p><p style="font-size:6px;"><span><br></span></p><p style="font-size:10px;"><span>生产计划</span></p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u23987" class="ax_default box_1">
+                <div id="u23987_div" class=""></div>
+                <div id="u23987_text" class="text " style="display:none; visibility: hidden">
+                  <p></p>
+                </div>
+              </div>
+
+              <!-- 船舶 (矩形) -->
+              <div id="u23988" class="ax_default box_1" data-label="船舶">
+                <img id="u23988_img" class="img " src="images/演示/船舶_u1075.svg"/>
+                <div id="u23988_text" class="text ">
+                  <p style="font-size:28px;"><span></span></p><p style="font-size:6px;"><span><br></span></p><p style="font-size:10px;"><span>船舶计划管理</span></p>
+                </div>
+              </div>
+
+              <!-- 杂项 (矩形) -->
+              <div id="u23989" class="ax_default box_1" data-label="杂项">
+                <img id="u23989_img" class="img " src="images/演示/到车计划_u1073.svg"/>
+                <div id="u23989_text" class="text ">
+                  <p style="font-size:28px;"><span></span></p><p style="font-size:6px;"><span><br></span></p><p style="font-size:10px;"><span>杂项作业计划</span></p>
+                </div>
+              </div>
+
+              <!-- 列车 (矩形) -->
+              <div id="u23990" class="ax_default box_1" data-label="列车">
+                <img id="u23990_img" class="img " src="images/演示/货票信息_u1060.svg"/>
+                <div id="u23990_text" class="text ">
+                  <p style="font-size:28px;"><span></span></p><p style="font-size:6px;"><span><br></span></p><p style="font-size:10px;"><span>列车计划管理</span></p>
+                </div>
+              </div>
+
+              <!-- 汽车 (矩形) -->
+              <div id="u23991" class="ax_default box_1" data-label="汽车">
+                <img id="u23991_img" class="img " src="images/演示/货票信息_u1060.svg"/>
+                <div id="u23991_text" class="text ">
+                  <p style="font-size:28px;"><span></span></p><p style="font-size:6px;"><span><br></span></p><p style="font-size:10px;"><span>汽车计划管理</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 计划管理切换面板 (动态面板) -->
+      <div id="u23992" class="ax_default" data-label="计划管理切换面板">
+        <div id="u23992_state0" class="panel_state" data-label="靠离泊计划" style="">
+          <div id="u23992_state0_content" class="panel_state_content">
+
+            <!-- Unnamed (矩形) -->
+            <div id="u23993" class="ax_default box_1">
+              <div id="u23993_div" class=""></div>
+              <div id="u23993_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="u23992_state1" class="panel_state" data-label="船舶作业计划" style="visibility: hidden;">
+          <div id="u23992_state1_content" class="panel_state_content">
+          </div>
+        </div>
+        <div id="u23992_state2" class="panel_state" data-label="到车计划" style="visibility: hidden;">
+          <div id="u23992_state2_content" class="panel_state_content">
+          </div>
+        </div>
+        <div id="u23992_state3" class="panel_state" data-label="列车作业管理" style="visibility: hidden;">
+          <div id="u23992_state3_content" class="panel_state_content">
+          </div>
+        </div>
+        <div id="u23992_state4" class="panel_state" data-label="货票信息" style="visibility: hidden;">
+          <div id="u23992_state4_content" class="panel_state_content">
+          </div>
+        </div>
+        <div id="u23992_state5" class="panel_state" data-label="汽疏计划" style="visibility: hidden;">
+          <div id="u23992_state5_content" class="panel_state_content">
+          </div>
+        </div>
+        <div id="u23992_state6" class="panel_state" data-label="杂项作业计划" style="visibility: hidden;">
+          <div id="u23992_state6_content" class="panel_state_content">
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="resources/scripts/axure/ios.js"></script>
+  </body>
+</html>
